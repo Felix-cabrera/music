@@ -29,10 +29,10 @@ function App() {
       <Routes>
         <Route path='/auth/login' element={<LoginPage/>} />
         <Route path='/auth/register' element={<RegisterPage/>} />
-        <Route path='/' element={<HomePage />}/>
-        <Route path='/track/:id' element={<TrackPage />} />
-        <Route path='/artist/:id' element={<ArtistPage />} />
         <Route element={<ProtectedRoutes />}>
+          <Route path='/' element={<HomePage />}/>
+          <Route path='/track/:id' element={<TrackPage />} />
+          <Route path='/artist/:id' element={<ArtistPage />} />
           <Route path='/playlist' element={<PlaylistPage/>} />
           <Route path='/playlist/:id' element={<PlayIdPage />}/>
         </Route>         
