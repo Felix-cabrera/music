@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Spectral', serif;
+}
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+    position: block;
+}
+h1,h2,h3,h4,h5,p,ul,hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+input{
+    font-family: inherit;
+    outline: none;
+}
+button{
+    font-family: inherit;
+    cursor: pointer;
+}

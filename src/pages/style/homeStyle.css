@@ -1,0 +1,184 @@
+.home{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home__nav{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    position: fixed;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__ul{
+    display: flex;
+    gap: 1em;
+}
+.nav__item{
+    font-size: 0.8em;
+    padding: 0.2em;
+    background-color: #689bc5;
+    border-radius: 0.5em;
+    transition: 250ms ease;
+    cursor: pointer;
+}
+.nav__item:hover{
+    transform: scale(1.1);
+}
+.home__container{
+    width: 300px;
+    margin-top: 20vh;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #23d5ab,#23a6d5 ,#e73c7e,#ee7752);
+    padding: 1em;
+    border-radius: 1em;
+}
+.trackCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.home__form{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+.track{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em 0em;
+    width: 300px;
+    height: 4em;
+}
+.header__track{
+    width: 3em;
+}
+.article__track{
+    width: 8.5em;
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+}
+.footer__track{
+    display: flex;
+    gap: 0.3em;
+}
+.footer__item{
+    font-size: 1em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    background-color: #689bc5;
+    color: white;
+    cursor: pointer;
+}
+.footer__item:hover{
+    transform: scale(1.1);
+    background-color: #23a6d5;
+}
+.title{
+    display: flex;
+    gap: 1em;
+    font-size: 0.6em;
+    color: black;
+}
+.title__link{
+    text-decoration: none;
+}
+.trackInfo__container{
+    background-color: #689bc5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1em;
+}
+.back{
+    font-size: 0.7em;
+    margin-right: 280px;
+    padding: 0.3em ;
+    border-radius: 1em;
+    background-color: rgb(230, 225, 225);
+    cursor: pointer;
+    transition: 200ms ease;
+}
+.back:hover{
+    background-color: rgba(224, 208, 208, 0.555);
+    transform: scale(1.1);
+}
+.trackInfo{
+    width: 300px;
+}
+.trackInfo__img{
+    width: 8em;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+.trackInfo__img:hover{
+    transform: scale(1.05);
+}
+.trackInfo__article{
+    padding-top: 0.5em;
+    display: flex;
+    gap: 1.5em;
+}
+.trackInfo__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.title__p{
+    color: white;
+    font-weight: 500;
+}
+/* music */
+.music__container{
+    display: flex;
+    justify-content: end;
+    margin-top: 15vh;
+}
+.music{
+    width: 250px;
+    background-color: #a3db7e;
+    border-bottom-left-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+}
+.music__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.5em;
+    padding-bottom: 0.5em;
+}
+.track-nodal{
+    width: 220px;
+    gap: 0.3em;
+}
+.music__div{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 700px){
+    .nav{
+        width: 90%;
+    }
+    
+}
